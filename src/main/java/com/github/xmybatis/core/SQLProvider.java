@@ -57,12 +57,14 @@ public abstract class SQLProvider {
 				continue;
 			}
 
-			if (c.id()) {
-				continue;
-			}
 			f.setAccessible(true);
 
 			Object value = f.get(info);
+			
+			// if (c.id()) {
+				// continue;
+			// }
+			
 			if (value != null) {
 				// log.info("column:"+c.value());
 				sql.INTO_COLUMNS(getAfterDot(c.value()));

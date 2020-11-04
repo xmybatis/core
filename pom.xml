@@ -7,7 +7,7 @@
 
 	<groupId>com.github.xmybatis</groupId>
 	<artifactId>xmybatis-core</artifactId>
-	<version>0.2</version>
+	<version>0.2.1</version>
 	<name>xmybatis-core</name>
 	<url>https://github.com/xmybatis/core</url>
    <description>A simple extends package for mybatis</description>
